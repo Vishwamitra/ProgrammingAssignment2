@@ -23,12 +23,12 @@ makeCacheMatrix <- function(x = matrix()) {
   
   # set the inverse
   setInverse <- function(inverse){
-    inv <<- inverse
+    temp <<- inverse
   }
   
   # get the inverse
   getInverse <- function(){
-    inv
+    temp
   }
   
   # returning all the 4 methods created above
